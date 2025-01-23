@@ -1,0 +1,65 @@
+# Ignore build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+Logs/
+
+# Crash reports
+*.crash
+
+# Azure related files
+*.azure*
+
+# DotNet specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Rider and Visual Studio specific
+.idea/
+.vscode/
+*.code-workspace
+*.sln.ide/
+
+# Backup files
+*.bak
+*.old
+*.orig
+
+# Database files
+*.mdf
+*.ldf
+
+# Dependency directories
+node_modules/
+packages/
+wwwroot/lib/
+
+# Publish output
+publish/
+out/
+
+# Secrets and configurations
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+
+# Generated files
+_Dependencies
+*.generated.cs
+Generated_Code/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Git-specific
+!.gitkeep
